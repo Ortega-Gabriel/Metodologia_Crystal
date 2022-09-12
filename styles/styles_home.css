@@ -5,7 +5,7 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
-/* Cabecalho */
+/* Header */
 
 header {
     background-color: #265C4B;
@@ -16,12 +16,13 @@ header {
     font-size: large;
     border-bottom: 5px solid #8FC1B5;
 }
+/* Formatação - Logo ADS*/
 #img-ads{
     width: 55px;
     height: 55px;
 }
 
-/* Grid de INFO */
+/* Formatação do Site*/
 .container {
     background-color: aliceblue;
     min-height: 70vh;
@@ -32,7 +33,7 @@ header {
     max-width: 1200px;
     margin: 0 auto;
 }
-
+/* Formatação do Card*/
 .card {
     width: 31%;
     display: inline-block;
@@ -40,7 +41,7 @@ header {
     padding: 15px;
 
 }
-
+/* Formatação dos Tópicos*/
 .info-image{
     text-align: center;
     padding-left: 3px;
@@ -53,8 +54,11 @@ header {
     margin-bottom: 10%;
     color: aliceblue;
     font-weight: bold;
+    background-color: #146551;
+    border-radius: 5px;
     
 }
+/*Botões*/
 .btn{
    text-decoration: none; 
    display: block;
@@ -68,43 +72,12 @@ header {
    transition: .5s;
    font-weight: bold;
 }
+/*Botões Transição*/
 .btn:hover{
     background-color: #007566;
 }
 
-#img-1 {
-    background-color: #146551;
-}
-
-#img-2 {
-    background-color: #146551;
-}
-
-#img-3 {
-    background-color: #146551;
-}
-
-#img-4 {
-    background-color: #146551;
-}
-
-h3{
-    margin-bottom: 10px;
-    color: #146551;
-    border-left: 5px solid #8FC1B5 ;
-    font-size: 24px;
-    padding-left: 7px;
-}
-
-.card p {
-    margin-bottom: 10px;
-}
-
-.bold {
-    font-weight: bold;
-}
-
-/* footer */
+/* Footer */
 footer {
     background-color: #265C4B;
     color: aliceblue;
@@ -112,3 +85,32 @@ footer {
     text-align: center;
     padding: 80px;
 }
+/* Formatação das Abas Secundárias*/
+.container-text {
+    background-color: aliceblue;
+    min-height: 73vh;
+    padding: 50px;
+}
+
+.info-container-text {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+/* Formatação dos Textos das Abas Secundárias*/    
+.info-text{
+    text-align: justify;
+    padding-left: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+    height: 100%;
+    width: 100%;
+    margin-bottom: 5%;
+    color: aliceblue;
+    font-weight: bold;
+    background-color: #146551;
+    border-radius: 5px;
+    padding: 15px;
+ }
+ 
